@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f594b2;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #f06292;
+    /* Color rosa */
+    color: #ffe5e5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu .header {
+    background-color: #ec407a;
+    /* Color rosa oscuro */
+    padding: 20px;
+}
+
+.menu .header h2 {
+    margin: 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    padding: 15px;
+    border-bottom: 1px solid #e91e63;
+    /* Color rosa más oscuro */
+}
+
+.menu ul li a {
+    color: #f9dfdf;
+    text-decoration: none;
+}
+
+.content {
+    margin-right: 270px;
+    /* Ancho del menú (250px) + espacio */
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(245, 40, 108);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#img1 {
+    margin: auto;
+    display: block;
+}
+
+h4 {
+    text-align: left;
+    color: rgb(251, 220, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
